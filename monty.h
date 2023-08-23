@@ -43,7 +43,7 @@ void (*f)(stack_t **stack, unsigned int line_number);
  * @ins: usable ins
  * @n_tk: tokens num
  * @head: head
- * @stack_1: num of node in stack
+ * @stack_l: num of node in stack
  * @stack: stack
  */
 typedef struct arg_s

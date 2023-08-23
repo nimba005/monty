@@ -1,4 +1,7 @@
 #include "monty.h"
+
+arg_t *args = NULL;
+
 /**
  * main - Start point of the prog
  * @agc: args num
@@ -25,3 +28,10 @@ int main(int agc, char **agv)
 	ags_free();
 	return (0);
 }
+
+void malloc_m(void) 
+{
+    fprintf(stderr, "Error: Memory allocation failed\n");
+    exit(EXIT_FAILURE);
+}
+
