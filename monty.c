@@ -13,9 +13,9 @@ int main(int agc, char **agv)
 	i_args();
 	g_s(agv[1]);
 
-	while (getline(&args->1, &z, args->s) != -1)
+	while (getline(&args->l, &z, args->s) != -1)
 	{
-		args->1_n += 1;
+		args->l_n += 1;
 		tokenizer();
 		g_ins();
 		run();

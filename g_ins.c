@@ -27,15 +27,15 @@ void g_ins(void)
 		return;
 	if (args->tk[0][0] == '#')
 	{
-		args->ins->opcode = "nop";
+		args->ins->opcodes = "nop";
 		args->ins->f = nop;
 		return;
 	}
-	for (; ins[g].opcode != NULL; g++)
+	for (; ins[g].opcodes != NULL; g++)
 	{
-		if (strcmp(ins[g].opcode, args->tk[0]) == 0)
+		if (strcmp(ins[g].opcodes, args->tk[0]) == 0)
 		{
-			args->ins->opcode = ins[g].opcode;
+			args->ins->opcodes = ins[g].opcodes;
 			args->ins->f = ins[g].f;
 			return;
 		}

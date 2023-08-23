@@ -4,7 +4,7 @@
  */
 void i_args(void)
 {
-	argsg = malloc(sizeof(arg_t));
+	args = malloc(sizeof(arg_t));
 	if (args == NULL)
 		malloc_m();
 	args->ins = malloc(sizeof(instruction_t));
@@ -13,7 +13,7 @@ void i_args(void)
 
 	args->s = NULL;
 	args->head = NULL;
-	args->1 = NULL;
+	args->l = NULL;
 	args->n_tk = 0;
 	args->l_n = 0;
 	args->stack_l = 0;

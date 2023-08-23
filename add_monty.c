@@ -4,12 +4,12 @@
  * @stack: ptr to s
  * @l_n: line number
  */
-void add_monty(stcak_t **stack, unsigned int l_n)
+void add_monty(stack_t **stack, unsigned int l_n)
 {
 	stack_t *n1, *n2;
 
 	(void) stack;
-	if (args->stack_1 < 2)
+	if (args->stack_l < 2)
 	{
 		dprintf(2, "L%d: can't add, stack too short\n", l_n);
 		all_free();

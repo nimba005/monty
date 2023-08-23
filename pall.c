@@ -8,7 +8,7 @@ void pall(stack_t **stack, unsigned int l_n)
 {
 	stack_t *node;
 
-	if (arggs->head == NULL)
+	if (args->head == NULL)
 		return;
 	(void) l_n;
 	(void) stack;

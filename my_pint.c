@@ -7,7 +7,7 @@
 void pint(stack_t **stack, unsigned int l_n)
 {
 	(void) stack;
-	if (argc->head == NULL)
+	if (args->head == NULL)
 	{
 		dprintf(2, "L%d: can't pint, stack empty\n", l_n);
 		ags_free();
